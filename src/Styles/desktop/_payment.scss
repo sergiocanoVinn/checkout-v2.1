@@ -1,0 +1,30 @@
+
+
+.v-custom-payment-item-wrap{
+    a.pg-pago-en-caja-cemaco.payment-group-item{
+        span.payment-group-item-text{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: start;
+        }
+    }
+
+    .payment-group-item{
+        span.payment-group-item-text{
+            display: flex;
+
+            .img-payment{
+                order: 2;
+            }
+
+            .title__pay{
+                order: 3;
+            }
+
+            .container-logo-bancos{
+                order: 4;
+            }
+        }
+    }
+}

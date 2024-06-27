@@ -1,0 +1,43 @@
+
+#shipping-data{
+    .box-step{
+        /* .vtex-omnishipping-1-x-addressForm,
+        .vtex-omnishipping-1-x-deliveryGroup, */
+        .vtex-omnishipping-1-x-addressFormPart1{
+            margin-top: 20px;
+
+            #edit-address-button,
+            #new-address-button{
+                display: none !important;
+            }
+        }
+        .vtex-omnishipping-1-x-deliveryGroup{
+            .vtex-omnishipping-1-x-productItems.delivery-items,
+            .vtex-omnishipping-1-x-scheduledDeliveryOptionsWrapper,
+            #scheduled-delivery-delivery{
+                display: none !important;
+            }
+        }
+    }
+
+}
+
+.vtex-omnishipping-1-x-selectedDate.shp-selected-date{
+    font-weight: 600 !important;
+}
+
+body.v-custom-step-shipping .shipping-data .accordion-toggle::before{
+    background: unset !important;
+    border-color: unset !important; 
+    border: none !important;
+    width: unset !important;
+}
+
+.vtex-omnishipping-1-x-deliveryChannelsWrapper.shipping-method-wrapper.shipping-valid-postal-code{
+    margin-bottom: 0 !important;
+}
+
+
+.shp-alert.vtex-omnishipping-1-x-alert.shp-alert-all-items-pickup{
+    margin-top: 1rem;
+}

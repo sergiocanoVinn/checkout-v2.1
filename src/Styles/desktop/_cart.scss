@@ -1,0 +1,227 @@
+
+.cart-template-holder{
+    .cart-more-options.span7{
+        display: none !important;
+    }
+}
+
+#cartLoadedDiv{
+    padding: 20px 15px;
+    border: solid 1px #ccc;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px -5px #626262;
+}
+
+.cart-template.full-cart{
+    .summary-template-holder{
+        padding: 20px 15px;
+        border: solid 1px #ccc;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px -5px #626262;
+        margin-bottom: 20px;
+    }
+}
+
+#cartLoadedDiv{
+    margin-top: 10px !important;
+}
+
+.table.cart-items tbody tr td.product-price{
+    margin-left: 20px !important;
+}
+
+.table.cart-items tbody tr td.item-remove{
+    margin-left: unset !important;
+}
+
+#poWrap{
+    display: none !important;
+}
+
+body.v-custom-step-payment .payment-data .accordion-toggle > span:not(.payment-edit-link):before,
+body.v-custom-step-payment .shipping-data .accordion-toggle:before,
+.client-profile-data .accordion-toggle>span:before{
+    background: unset !important;
+    border-color: unset !important;
+    width: unset !important;
+    border-radius: unset !important;
+    border: none !important;
+}
+
+.table.cart-items td.quantity .item-quantity-change.item-quantity-change-decrement i:before{
+    content: "\f056" !important; 
+}
+.table.cart-items td.quantity .item-quantity-change.item-quantity-change-increment i:before{
+    content: "\f055" !important;
+}
+
+
+.table.cart-items td.quantity{
+    border: unset !important;
+}
+
+.table.cart-items td.quantity input{
+    margin: 5px !important;
+    width: 25px !important;
+    height: 25px !important;
+    border: 1px solid #cbcbcb !important;
+}
+
+.table.cart-items td.quantity .item-quantity-change i:before {
+    font-size: 18px !important;
+}
+a.open-info-table i{
+    color: #101e8e;
+}
+.fa-minus:before{
+    content: "\f068";
+}
+
+.fa-plus:before{
+    content: "\f067";
+}
+
+form.coupon-form{
+    fieldset.coupon-fieldset{
+        display: none !important;
+    }
+}
+
+.forms.coupon-column.summary-coupon-wrap.span7.pull-left{
+    display: none !important;
+}
+
+.d-block{
+    display: block !important;
+}
+
+.open__info__table__cupon{
+    cursor: pointer;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.coupon__section__head{
+    display: flex;
+    flex-direction: column;
+}
+
+.coupon__section__{
+    display: flex;
+    margin-top: 15px;
+}
+
+.coupon__section__btn,
+.coupon__section__input{
+    width: 50%;
+    border-radius: 30px !important;
+}
+
+.coupon__section__{
+    .coupon__section__input{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        height: 30px !important;
+        padding: 0 15px !important;
+        border: 1px solid #adadad !important;
+        border-radius: 30px !important;
+        outline: none !important;
+        margin-bottom: 0 !important;
+    }
+    
+}
+.coupon__section__btn{
+    border: solid 2px #101e8e;
+    text-transform: uppercase;
+    background: #fff;
+    color: #000 !important;
+    margin-left: 10px;
+    border-radius: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-shadow: none;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 0;
+    padding: 2px 33px;
+    height: 30px;
+    font-size: 13px;
+}
+
+.orderform-template .cart-template.mini-cart .summary-template-holder .summary>.summary-coupon-wrap{
+    display: none !important;
+}
+
+body.can-checkout .orderform-template-holder #payment-data .payment-group-item{
+    display: block !important;
+}
+
+.coupon__section__head{
+    border-bottom: 2px solid #0000005c;
+    padding-bottom: 10px;
+}
+
+.summary-template-holder tbody{
+    border-top: none !important;
+    border-bottom: none !important;
+    padding: 0 !important;
+}
+
+.orderform-template .cart-template.mini-cart .summary-totalizers{
+    border-bottom: none !important;
+}
+
+.card_priv__{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_priv__head{
+    border-top: 2px solid #0000005c;
+    padding-top: 20px;
+}
+
+.card_priv__input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    appearance: none;
+    height: 30px !important;
+    padding: 0 15px !important;
+    border: 1px solid #adadad !important;
+    border-radius: 30px !important;
+    outline: none !important;
+    margin-bottom: 0 !important;
+    border-radius: 30px !important;
+    margin-top: 5px;
+}
+
+.card_priv__title,
+.card_priv__text{
+    color: #000;
+}
+
+.card_priv__text{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+#faltante{
+    margin-top: 20px !important;
+}
+
+
+.coupon__active__{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.coupon__value__active__{
+    margin-bottom: 0;
+}

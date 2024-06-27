@@ -1,0 +1,47 @@
+
+.vtex-omnishipping-1-x-title-custom__{
+    font-size: 1rem !important;
+}
+
+.vtex__delivery__option__text{
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.vtex__delivery__option__input{
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+#scheduled-delivery-Entrega-estándar,
+#vtex-omnishipping-1-x-selectedDay_custom__,
+#vtex-omnishipping-1-x-selectAddres_custom__{
+    border-radius: 45px !important;
+}
+
+.vtex-omnishipping-1-x-scheduledDeliveryList{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.vtex-omnishipping-1-x-addressFormPart1{
+    display: none !important;
+}
+
+.vtex-omnishipping-1-x-scheduledDelivery{
+    padding: 0 !important;
+}
+
+.payment-data .accordion-toggle>span:not(.payment-edit-link):before{
+    border: none !important;
+    width: unset !important;
+    border-radius: 0 !important;
+}

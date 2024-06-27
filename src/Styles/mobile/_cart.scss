@@ -1,0 +1,27 @@
+@import "../mixins";
+
+@include mobile{
+    .full-cart .cart table tbody tr td.quantity{
+        margin-top: unset !important;
+        margin-left: 0 !important;
+    }
+
+}
+
+@include tablet{
+    .full-cart .summary-template-holder.summary-template-holder{
+        margin-top: 20px !important;
+    }
+    .full-cart .cart table tbody tr td.product-price{
+        top: unset !important;
+        left: 70% !important;
+    }
+}
+
+
+@include mobile-lg{
+    .summary-template-holder .cart-links-bottom,
+    .cart-links.cart-links-bottom .btn-place-order-wrapper{
+        position: unset !important;
+    }
+}
