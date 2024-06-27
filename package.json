@@ -4,7 +4,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "esbuild": "node esbuild.config.js --watch"
+    "dev": "node esbuild.config.js",
+    "build": "node esbuild.config.js --watch"
   },
   "dependencies": {
     "axios": "^0.21.1",
