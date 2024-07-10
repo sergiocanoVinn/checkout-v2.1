@@ -1,6 +1,6 @@
 const priviCard = {
     init: () => {
-        console.log("Hello priviCard")
+        console.log("Hello priviCard w")
     }
 }
 
